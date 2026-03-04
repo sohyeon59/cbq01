@@ -22,7 +22,7 @@
 				<td>주문점포</td>
 				<td>
 					<select id="shopno" required>
-						<option value="" disable selected>점포선택</option>
+						<option value="" disabled selected>점포선택</option>
 						<option value="S001">AA 할인점</option>
 						<option value="S002">BB 할인점</option>
 						<option value="S003">CC 할인점</option>
@@ -38,7 +38,7 @@
 				<td>제품코드</td>
 				<td>
 					<select id="pcode" required>
-						<option value="" disable selected>코드선택</option>
+						<option value="" disabled selected>코드선택</option>
 						<option value="AA01">AA01</option>
 						<option value="AA02">AA02</option>
 						<option value="AA03">AA03</option>
@@ -55,7 +55,7 @@
 			<tr>
 				<td colspan = 2>
 				<button id="regbtn" onclick="register()">주문등록</button>
-				<button id="resetbtn" onclick="reset()">다시쓰기</button></td>
+				<button id="resetbtn" onclick="location.href='register.jsp'">다시쓰기</button></td>
 			</tr>
 			
 		
