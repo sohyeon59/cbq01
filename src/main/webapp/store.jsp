@@ -9,7 +9,7 @@
 <head>
 <meta charset="UTF-8">
 <title>점포별 주문현황</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/store.css">
 </head>
 <body>
 <%
