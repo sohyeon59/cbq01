@@ -1,35 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ include file="header.jsp" %>
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="css/register.css">
 <head>
 <meta charset="UTF-8">
 <title>주문등록</title>
 
-<style>
-    section{
-        text-align: center;
-    }
-    section p{
-        padding: 30px;
-        font-weight: bold;
-    }
-    section table{
-        width: 300px;
-    }
-    table select{
-        width: 180px;
-    }  
-    select option{
-        text-align: center;
-    }
-</style>
 </head>
 <body>
-<%@ include file="header.jsp" %>
-	<section>
-	<h1>주문 등록</h1>
+
+<section>
+	<p>주문 등록</p>
 		<table border="1">
 			<tr>
 				<td>주문번호</td>
@@ -90,7 +73,7 @@
 		const amount = document.getElementById("amount");
 		const send = "orderno=" + orderno.value + "&shopno=" + shopno.value + "&orderdate=" + orderdate.value + "&pcode=" + pcode.value + "&amount=" + amount.value;
 		
-		const xhr = new XMLHttRequest();
+		const xhr = new XMLHttpRequest();
 		
 		xhr.onload = function(){
 			
@@ -116,6 +99,11 @@
 		
 		xhr.open("GET", "register?" + send);
 		xhr.send();
+		
+	}
+	
+	function reset(){
+		
 		
 	}
 
