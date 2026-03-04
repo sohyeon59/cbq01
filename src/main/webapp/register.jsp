@@ -79,31 +79,28 @@
 			
 			if(orderno.value == ""){
 				alert("주문번호가 입력되지 않았습니다!");
+				console.log("오류");
 				orderno.focus();
-			}if(shopno.value == ""){
+			}else if(shopno.value == ""){
 				alert("주문점포가 선택되지 않았습니다!");
 				shopno.focus();
-			}if(orderdate.value == ""){
+			}else if(orderdate.value == ""){
 				alert("주문일자가 입력되지 않았습니다!");
 				orderdate.focus();
-			}if(pcode.value == ""){
+			}else if(pcode.value == ""){
 				alert("제품코드가 선택되지 않았습니다!");
 				pcode.focus();
-			}if(amount.value == ""){
+			}else if(amount.value == ""){
 				alert("주문수량이 입력되지 않았습니다!");
 				amount.focus();
 			}else{
-				alert("주문등록이 정상적으로 등록 되었습니다!")
+				alert("주문등록이 정상적으로 등록 되었습니다!");
+				location.href='register.jsp';
 			}
 		}
 		
 		xhr.open("GET", "register?" + send);
 		xhr.send();
-		
-	}
-	
-	function reset(){
-		
 		
 	}
 

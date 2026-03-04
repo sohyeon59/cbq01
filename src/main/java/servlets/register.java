@@ -18,7 +18,6 @@ public class register extends HttpServlet {
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("연결됨");
-		
 		String orderno = request.getParameter("orderno");
 		String shopno = request.getParameter("shopno");
 		String orderdate = request.getParameter("orderdate");
@@ -34,8 +33,7 @@ public class register extends HttpServlet {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			
 			Connection con = DriverManager.getConnection(url, user, password);
-			
-			String sql = "Insert into TBL_0RDER_202101 value (?, ?, ?, ?, ?)";
+			String sql = "INSERT INTO TBL_ORDER_202101 (ORDERNO, SHOPNO, ORDERDATE, PCODE, AMOUNT) VALUES (?, ?, ?, ?, ?)";
 			PreparedStatement pstmt = con.prepareStatement(sql);
 			pstmt.setString(1, orderno);
 			pstmt.setString(2, shopno);
