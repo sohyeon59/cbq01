@@ -3,10 +3,6 @@
 section{
     text-align: center;
 }
-section p{
-    padding: 30px;
-    font-weight: bold;
-}
 section table{
 	margin: 0 auto;
     width: 300px;

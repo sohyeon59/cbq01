@@ -12,7 +12,7 @@
 <body>
 
 <section>
-	<p>주문 등록</p>
+	<h1>주문 등록</h1>
 		<table border="1">
 			<tr>
 				<td>주문번호</td>
@@ -63,7 +63,7 @@
 	
 	
 	</section>
-
+	<%@ include file="footer.jsp" %>
 <script>
 	function register(){
 		const orderno = document.getElementById("orderno");

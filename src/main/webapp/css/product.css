@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+table{
+    width:600px;
+    border: 1px solid black;
+}
+
+th, td{
+    padding:8px;
+    border: 1px solid balck;
+    text-align:center;
+}

@@ -13,7 +13,7 @@
 </head>
 <body>
 <%
-	String url = "jdbc:oracle:thin:@//localhost:1521/testdb";
+	String url = "jdbc:oracle:thin:@//localhost:1521/orcl";
 	String user = "green";
 	String pw = "1234";
 	
@@ -89,5 +89,7 @@
 %>
 		</div>
 	</section>
+	
+	<%@ include file="footer.jsp" %>
 </body>
 </html>
