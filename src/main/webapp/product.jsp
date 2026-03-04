@@ -7,7 +7,7 @@
 <head>
 <meta charset="UTF-8">
 <title>제품코드조회</title>
-<link rel="stylesheet" href="css/product.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
