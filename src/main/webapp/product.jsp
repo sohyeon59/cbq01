@@ -26,7 +26,7 @@
 		<%
 		
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@//localhost:1521/orcl", "green", "1234");
+		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@//192.168.0.130:1521/testdb", "green", "1234");
 		
 		PreparedStatement ps = conn.prepareStatement(
 			"SELECT PCODE, PNAME, "+

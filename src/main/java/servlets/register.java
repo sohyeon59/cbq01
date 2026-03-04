@@ -26,7 +26,7 @@ public class register extends HttpServlet {
 		Integer amount = Integer.parseInt(request.getParameter("amount"));
 		
 		
-		String url = "jdbc:oracle:thin:@//localhost:1521/testdb";
+		String url = "jdbc:oracle:thin:@//192.168.0.130:1521/testdb";
 		String user = "green";
 		String password = "1234";
 		

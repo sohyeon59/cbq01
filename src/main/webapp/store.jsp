@@ -13,7 +13,7 @@
 </head>
 <body>
 <%
-	String url = "jdbc:oracle:thin:@//localhost:1521/orcl";
+	String url = "jdbc:oracle:thin:@//192.168.0.130:1521/testdb";
 	String user = "green";
 	String pw = "1234";
 	
