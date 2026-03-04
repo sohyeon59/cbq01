@@ -1,7 +1,9 @@
 @charset "UTF-8";
 body{
 	margin: 0px;
-	
+	background-color: #edebeb;
+	display: flex;
+  	flex-direction: column; 
 }
 *{
 	margin: 0px;
