@@ -9,7 +9,7 @@
 <head>
 <meta charset="UTF-8">
 <title>주문목록조회</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/orders.css">
 </head>
 <body>
 <%

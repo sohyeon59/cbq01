@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/*	store.jsp
+-----------------------------------------------------------------------*/
+#store_section{
+	text-align: center;
+}
+#store_section table{
+	margin: 0 auto;
+	width: 400px;
+	border: 1px solid black;
+	
+}
+#store_section table tr th{
+	border: 1px solid black;
+}
+#store_section table td{
+	border: 1px solid black;
+}
