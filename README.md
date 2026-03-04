@@ -6,4 +6,6 @@
 제품코드조회 product.jsp  
 
 css파일은 css폴더에, jsp랑 같은 이름으로 !!  
-ex) index.jsp / index.css 
+ex) index.jsp / index.css  
+
+헤더는 <%@ include file="header.jsp" %> 이렇게 포함시키세용
