@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/style.css">
 <header>
 	<div id="header_view">
 		<h1>할인점 주문프로그램 ver 1.0</h1>
